@@ -1,0 +1,15 @@
+D:\LORENZO\Escritorio\ROBOT\ROBOT\bin\Debug\ROBOT.exe.config
+D:\LORENZO\Escritorio\ROBOT\ROBOT\bin\Debug\ROBOT.exe
+D:\LORENZO\Escritorio\ROBOT\ROBOT\bin\Debug\ROBOT.pdb
+D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.csproj.AssemblyReference.cache
+D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.Form1.resources
+D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.Properties.Resources.resources
+D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.csproj.GenerateResource.cache
+D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.csproj.CoreCompileInputs.cache
+D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.exe
+D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.pdb
+D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.Instrucciones.resources
+D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.GAME.resources
+D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.Instrucciones2.resources
+D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\Interop.WMPLib.dll
+D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.csproj.ResolveComReference.cache
