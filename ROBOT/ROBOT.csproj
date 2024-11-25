@@ -64,12 +64,6 @@
     <Compile Include="Instrucciones.Designer.cs">
       <DependentUpon>Instrucciones.cs</DependentUpon>
     </Compile>
-    <Compile Include="Instrucciones2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Instrucciones2.Designer.cs">
-      <DependentUpon>Instrucciones2.cs</DependentUpon>
-    </Compile>
     <Compile Include="MusicPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,9 +75,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Instrucciones.resx">
       <DependentUpon>Instrucciones.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Instrucciones2.resx">
-      <DependentUpon>Instrucciones2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -10,6 +10,5 @@ D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.exe
 D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.pdb
 D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.Instrucciones.resources
 D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.GAME.resources
-D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.Instrucciones2.resources
 D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\Interop.WMPLib.dll
 D:\LORENZO\Escritorio\ROBOT\ROBOT\obj\Debug\ROBOT.csproj.ResolveComReference.cache
