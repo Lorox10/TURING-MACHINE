@@ -132,5 +132,20 @@ namespace ROBOT
             }
         }
 
+        private void btnAleatorio_Click(object sender, EventArgs e)
+        {
+            Color[] colores = { Color.Yellow, Color.DarkGreen, Color.DarkBlue, Color.DarkRed };
+
+            Random random = new Random();
+
+            PictureBox[] celdas = { pct1, pct2, pct3, pct4, pct5, pct6, pct7, pct8 };
+
+            foreach (var celda in celdas)
+            {
+                int indiceColor = random.Next(colores.Length);
+                celda.BackColor = colores[indiceColor];
+            }
+        }
+
     }
 }

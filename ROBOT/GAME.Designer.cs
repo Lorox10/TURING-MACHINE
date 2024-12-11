@@ -65,6 +65,7 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.btnComprobar = new System.Windows.Forms.Button();
+            this.btnAleatorio = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pct1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct4)).BeginInit();
@@ -103,7 +104,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.DarkOrchid;
+            this.btnSalir.BackColor = System.Drawing.Color.Violet;
             this.btnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSalir.Font = new System.Drawing.Font("MV Boli", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -117,12 +118,12 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Azure;
+            this.textBox1.BackColor = System.Drawing.SystemColors.Info;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(469, 83);
+            this.textBox1.Location = new System.Drawing.Point(180, 84);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(503, 26);
+            this.textBox1.Size = new System.Drawing.Size(469, 33);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = "resuelva la siguiente secuencia de cuadrados:";
             // 
@@ -240,7 +241,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.textBox2.BackColor = System.Drawing.SystemColors.Info;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(1028, 352);
@@ -297,7 +298,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.textBox5.BackColor = System.Drawing.SystemColors.Info;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.Location = new System.Drawing.Point(1028, 460);
@@ -354,7 +355,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.textBox3.BackColor = System.Drawing.SystemColors.Info;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(1028, 577);
@@ -411,7 +412,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.textBox6.BackColor = System.Drawing.SystemColors.Info;
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox6.Location = new System.Drawing.Point(1028, 678);
@@ -468,7 +469,7 @@
             // 
             // btnComprobar
             // 
-            this.btnComprobar.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnComprobar.BackColor = System.Drawing.SystemColors.Info;
             this.btnComprobar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnComprobar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnComprobar.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -480,12 +481,27 @@
             this.btnComprobar.UseVisualStyleBackColor = false;
             this.btnComprobar.Click += new System.EventHandler(this.btnComprobar_Click);
             // 
+            // btnAleatorio
+            // 
+            this.btnAleatorio.BackColor = System.Drawing.Color.Thistle;
+            this.btnAleatorio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAleatorio.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAleatorio.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAleatorio.Location = new System.Drawing.Point(986, 13);
+            this.btnAleatorio.Name = "btnAleatorio";
+            this.btnAleatorio.Size = new System.Drawing.Size(119, 84);
+            this.btnAleatorio.TabIndex = 57;
+            this.btnAleatorio.Text = "Aleatorio";
+            this.btnAleatorio.UseVisualStyleBackColor = false;
+            this.btnAleatorio.Click += new System.EventHandler(this.btnAleatorio_Click);
+            // 
             // GAME
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ROBOT.Properties.Resources.img1_wallspic_com_cubo_de_rubik_cubo_gesto_rectangulo_triangulo_2932x2932;
             this.ClientSize = new System.Drawing.Size(1412, 774);
+            this.Controls.Add(this.btnAleatorio);
             this.Controls.Add(this.btnComprobar);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label7);
@@ -590,5 +606,6 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Button btnComprobar;
+        private System.Windows.Forms.Button btnAleatorio;
     }
 }
